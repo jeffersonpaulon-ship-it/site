@@ -86,6 +86,7 @@ class MenuController extends Controller
                 'recentPosts'  => $blogPosts,
                 'blogs'        => $blogPosts,
                 'cases'        => $casesRecords,   // Alimenta o loop de portfólio na view 'cases.php'
+                'galleryItems' => array_slice($casesRecords, 0, 6), // Alimenta partials/gallery.php na home
                 'sliders'      => $slidersRecords, // Alimenta o carrossel de banners na view 'index.php'
                 'isHome'       => $isRoot
             ];
