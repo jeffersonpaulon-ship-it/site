@@ -17,9 +17,9 @@ class TrabalheConoscoController extends BaseController
 
         // Defina os dados de SEO manualmente, pois $pageSeo não está definido no seu código
         $seoData = [
-            'title'       => 'Trabalhe Conosco - Credenciamento Sem FIla',
+            'title'       => 'Trabalhe Conosco | Credenciamento Sem Fila',
             'description' => 'Preencha os campos abaixo e vamos trabalhar juntos em breve!',
-            'keywords'    => 'trabalhe conosco, credenicamento sem fila',
+            'keywords'    => 'trabalhe conosco, vagas credenciamento sem fila',
             'image'       => base_url('assets/images/brand/logo-credenciamento-sem-fila.svg'),
             'canonical'   => base_url('trabalhe-conosco'),
         ];

@@ -20,9 +20,9 @@ class ContatoController extends BaseController
 
         // Defina os dados de SEO manualmente, pois $pageSeo não está definido no seu código
         $seoData = [
-            'title'       => 'Entre em Contato - Nome do Site',
-            'description' => 'Entre em contato conosco para mais informações.',
-            'keywords'    => 'contato, fale conosco, empresa',
+            'title'       => 'Entre em Contato com a Credenciamento Sem Fila',
+            'description' => 'Fale com a nossa equipe e solicite um orçamento para credenciamento, controle de acesso e locação de equipamentos para o seu evento.',
+            'keywords'    => 'contato, fale conosco, orçamento credenciamento para eventos',
             'image'       => base_url('assets/images/brand/logo-credenciamento-sem-fila.svg'),
             'canonical'   => base_url('contato'),
         ];

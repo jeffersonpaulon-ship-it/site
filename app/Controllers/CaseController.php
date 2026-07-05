@@ -92,8 +92,12 @@ class CaseController extends BaseController
         $menuTree  = $this->buildMenuTree($menuItems);
 
         // Dados de SEO para a página de detalhes do case
+        $baseTitle = !empty($case['title']) ? $case['title'] : $case['client'] . ' | Case de Sucesso';
+        // Título curto demais prejudica o SEO: completa com o nome da marca até um tamanho saudável
+        $seoTitle = (strlen($baseTitle) < 45) ? $baseTitle . ' | Credenciamento Sem Fila' : $baseTitle;
+
         $seoData = [
-            'title'       => !empty($case['title']) ? $case['title'] : $case['client'] . ' | Case de Sucesso',
+            'title'       => $seoTitle,
             'description' => !empty($case['description']) ? character_limiter(strip_tags($case['description']), 150) : 'Confira os detalhes operacionais aplicados.',
             'keywords'    => !empty($case['keywords']) ? $case['keywords'] : 'credenciamento, controle de acesso, rfid',
             'image'       => !empty($case['image_site']) ? $case['image_site'] : 'default-image.jpg',
