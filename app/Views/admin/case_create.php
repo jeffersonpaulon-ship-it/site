@@ -62,11 +62,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="description1">Descrição Adicional</label>
-                            <textarea name="description1" class="form-control" id="description1" rows="3"><?= old('description1') ?></textarea>
-                        </div>
-
-                        <div class="form-group">
                             <label for="description2">Descrição 2</label>
                             <textarea name="description2" class="form-control" id="description2" rows="3"><?= old('description2') ?></textarea>
                         </div>

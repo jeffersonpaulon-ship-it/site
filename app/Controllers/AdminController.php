@@ -379,7 +379,7 @@ class AdminController extends BaseController
     {
         return [
             'title', 'slug', 'client', 'category', 'project_date', 'keywords',
-            'instagram', 'description', 'description1', 'description2',
+            'instagram', 'description', 'description2',
             'titulo2', 'description3', 'titulo3', 'description4',
         ];
     }
