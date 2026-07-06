@@ -1,26 +1,28 @@
 @font-face {
-    font-family: 'icomoon-tworegular';
-    src: url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two-webfont.eot');
-    src: url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two-webfont.woff2') format('woff2'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two-webfont.woff') format('woff'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two-webfont.ttf') format('truetype'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two-webfont.svg#icomoon-tworegular') format('svg');
+    font-family: 'icomoon-two';
+    src: url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two-webfont.eot');
+    src: url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two-webfont.woff2') format('woff2'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two-webfont.woff') format('woff'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two-webfont.ttf') format('truetype'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two-webfont.svg#icomoon-two') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
 @font-face {
-    font-family: 'icomoon-tworegular';
-    src: url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two.eot');
-    src: url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two.eot?#iefix') format('embedded-opentype'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two.woff2') format('woff2'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two.woff') format('woff'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two.ttf') format('truetype'),
-         url('https://www.credenciamentosemfila.com.br/public/assets/vendors/qutiiz-icons/fonts/icomoon-two.svg#icomoon-tworegular') format('svg');
+    font-family: 'icomoon-two';
+    src: url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two.eot');
+    src: url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two.eot?#iefix') format('embedded-opentype'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two.woff2') format('woff2'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two.woff') format('woff'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two.ttf') format('truetype'),
+         url('https://www.credenciamentosemfila.com.br/assets/vendors/qutiiz-icons-two/fonts/icomoon-two.svg#icomoon-two') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
