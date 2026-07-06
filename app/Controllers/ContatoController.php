@@ -31,7 +31,8 @@ class ContatoController extends BaseController
         return view('pages/contato', [
             'menuTree'    => $menuTree,
             'seoData'     => $seoData,
-            'isHome'      => false
+            'isHome'      => false,
+            'slimAssets'  => true, // Página não usa Owl Carousel/Swiper/Odometer/Magnific Popup
         ]);
     }
 

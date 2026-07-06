@@ -34,13 +34,17 @@
     <link rel="stylesheet" href="<?= base_url('assets/vendors/animate/animate.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/animate/custom-animate.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/fontawesome/css/all.min.css')?>">
+    <?php if (empty($slimAssets)): ?>
     <link rel="stylesheet" href="<?= base_url('assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/odometer/odometer.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/swiper/swiper.min.css')?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?= base_url('assets/vendors/qutiiz-icons/style.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/qutiiz-icons-two/style.css')?>">
+    <?php if (empty($slimAssets)): ?>
     <link rel="stylesheet" href="<?= base_url('assets/vendors/owl-carousel/owl.carousel.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/owl-carousel/owl.theme.default.min.css')?>">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?= base_url('assets/vendors/timepicker/timePicker.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/qutiiz.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/qutiiz-responsive.css')?>">

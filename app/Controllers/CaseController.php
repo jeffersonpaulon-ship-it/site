@@ -58,10 +58,11 @@ class CaseController extends BaseController
 
         // 6. Agrupa tudo e envia com as chaves exatas esperadas pelo seu novo HTML
         return view('pages/cases', [
-            'cases'    => $cases,
-            'pageData' => $pageData,
-            'menuTree' => $menuTree,
-            'seoData'  => $seoData,
+            'cases'       => $cases,
+            'pageData'    => $pageData,
+            'menuTree'    => $menuTree,
+            'seoData'     => $seoData,
+            'slimAssets'  => true, // Página não usa Owl Carousel/Swiper/Odometer/Magnific Popup
         ]);
     }
 
@@ -105,9 +106,10 @@ class CaseController extends BaseController
         ];
 
         return view('pages/case-details', [
-            'case'     => $case,
-            'menuTree' => $menuTree,
-            'seoData'  => $seoData,
+            'case'       => $case,
+            'menuTree'   => $menuTree,
+            'seoData'    => $seoData,
+            'slimAssets' => true, // Página não usa Owl Carousel/Swiper/Odometer/Magnific Popup
         ]);
     }
 

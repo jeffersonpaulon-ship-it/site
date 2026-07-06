@@ -161,12 +161,18 @@
 <script src="<?= base_url('assets/vendors/jquery/jquery-3.6.0.min.js') ?>"></script>
 <script src="<?= base_url('assets/vendors/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 <script src="<?= base_url('assets/vendors/jquery-appear/jquery.appear.min.js') ?>"></script>
+<?php if (empty($slimAssets)): ?>
 <script src="<?= base_url('assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js') ?>"></script>
+<?php endif; ?>
 <script src="<?= base_url('assets/vendors/jquery-validate/jquery.validate.min.js') ?>"></script>
+<?php if (empty($slimAssets)): ?>
 <script src="<?= base_url('assets/vendors/odometer/odometer.min.js') ?>"></script>
 <script src="<?= base_url('assets/vendors/swiper/swiper.min.js') ?>"></script>
+<?php endif; ?>
 <script src="<?= base_url('assets/vendors/wow/wow.js') ?>"></script>
+<?php if (empty($slimAssets)): ?>
 <script src="<?= base_url('assets/vendors/owl-carousel/owl.carousel.min.js') ?>"></script>
+<?php endif; ?>
 <script src="<?= base_url('assets/vendors/timepicker/timePicker.js') ?>"></script>
 <script src="<?= base_url('assets/vendors/isotope/isotope.js') ?>"></script>
 <script src="<?= base_url('assets/js/qutiiz.js') ?>"></script>

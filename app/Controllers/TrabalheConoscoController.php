@@ -28,7 +28,8 @@ class TrabalheConoscoController extends BaseController
         return view('pages/trabalhe-conosco', [
             'menuTree'    => $menuTree,
             'seoData'     => $seoData,
-            'isHome'      => false
+            'isHome'      => false,
+            'slimAssets'  => true, // Página não usa Owl Carousel/Swiper/Odometer/Magnific Popup
         ]);
     }
     
