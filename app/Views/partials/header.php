@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <?php if (!empty($isHome) && !empty($sliders[0]['image'])): ?>
+    <link rel="preload" as="image" href="<?= base_url('assets/images/backgrounds/' . esc($sliders[0]['image'])) ?>" fetchpriority="high">
+    <?php endif; ?>
+
     <title><?= esc($seoData['title']) ?></title>
     <meta name="description" content="<?= esc($seoData['description']) ?>">
     <meta name="keywords" content="<?= esc($seoData['keywords']) ?>">
