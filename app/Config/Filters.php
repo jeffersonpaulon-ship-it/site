@@ -85,7 +85,7 @@ class Filters extends BaseFilters
             ],
         ],
         'after' => [
-            'toolbar',
+            // 'toolbar', // Desativado em produção: injeta o Debug Toolbar (script "?debugbar") em toda página, custando tempo de carregamento e expondo dados internos (queries, ambiente, paths) a qualquer visitante.
             // 'honeypot',
             // 'secureheaders',
         ],
