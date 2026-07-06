@@ -42,8 +42,6 @@
     <link rel="stylesheet" href="<?= base_url('assets/vendors/qutiiz-icons-two/style.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/owl-carousel/owl.carousel.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/owl-carousel/owl.theme.default.min.css')?>">
-    <link rel="stylesheet" href="<?= base_url('assets/vendors/jquery-ui/jquery-ui.css')?>">
-    <link rel="stylesheet" href="<?= base_url('assets/vendors/timepicker/timePicker.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/qutiiz.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/qutiiz-responsive.css')?>">
 </head>
