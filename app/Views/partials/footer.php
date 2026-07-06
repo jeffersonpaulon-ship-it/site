@@ -168,4 +168,5 @@
 <script src="<?= base_url('assets/vendors/wow/wow.js') ?>"></script>
 <script src="<?= base_url('assets/vendors/owl-carousel/owl.carousel.min.js') ?>"></script>
 <script src="<?= base_url('assets/vendors/timepicker/timePicker.js') ?>"></script>
+<script src="<?= base_url('assets/vendors/isotope/isotope.js') ?>"></script>
 <script src="<?= base_url('assets/js/qutiiz.js') ?>"></script>
