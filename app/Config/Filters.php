@@ -60,7 +60,7 @@ class Filters extends BaseFilters
         'after' => [
             'pagecache',   // Web Page Caching
             'performance', // Performance Metrics
-            'toolbar',     // Debug Toolbar
+            // 'toolbar', // Desativado em produção: veja o comentário em $globals['after'] abaixo.
         ],
     ];
 
